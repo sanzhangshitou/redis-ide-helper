@@ -1,0 +1,17 @@
+{
+    "name": "redis/ide-helper",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Redis\\IdeHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "三石",
+            "email": "18264315@qq.com"
+        }
+    ],
+    "require": {}
+}
