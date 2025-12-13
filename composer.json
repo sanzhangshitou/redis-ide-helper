@@ -1,5 +1,5 @@
 {
-    "name": "redis/ide-helper",
+    "name": "sanzhangshitou/redis-ide-helper",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -9,7 +9,7 @@
     },
     "authors": [
         {
-            "name": "三石",
+            "name": "sanzhangshitou",
             "email": "18264315@qq.com"
         }
     ],
