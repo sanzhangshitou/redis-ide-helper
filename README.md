@@ -16,5 +16,5 @@ Available serializers => php, json
 ## 安装对应版本的 redis-ide-helper 扩展
 
 ```bash
-composer require --dev sanzhangshitou/redis-ide-helper:~6.1
+composer require --dev sanzhangshitou/redis-ide-helper:~6.1.0
 ```
