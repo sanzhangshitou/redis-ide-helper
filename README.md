@@ -32,3 +32,17 @@ composer require --dev sanzhangshitou/redis-ide-helper:~6.2.0
 ```bash
 composer require --dev sanzhangshitou/redis-ide-helper:~6.3.0
 ```
+
+```php
+/** @var \Redis $redis */
+$redis = new \Redis();
+$redis->connect(host: 'localhost', port: 6699);
+$auth = $redis->auth('redis123456');
+if (!$auth) {
+    exit('Redis 密码认证失败');
+}
+$redis->select(1);
+$redis->set('key', mt_rand(100000, 999999));
+$res = $redis->get('key');
+var_dump($res);
+```
